@@ -1,0 +1,578 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    ;
+}
+
+/*----------------- dobra 1---------------- */
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+
+section.dobra1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(imagens/ilha.png);
+    min-height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 50px;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+ul li a::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #fff;
+    display: flex;
+    margin: auto;
+    transition: 0.5s;
+}
+
+ul li a:hover::after {
+    width: 100%;
+
+    background-color: aliceblue;
+    color: #000;
+}
+
+
+.logo img {
+    margin-top: 20%;
+    margin-left: 43%;
+    float: left;
+    width: 170px;
+    height: auto;
+}
+
+.topo {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.titulo {
+    width: 90%;
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+}
+
+.titulo h1 {
+    color: #fff;
+    font-size: 67px;
+}
+
+.titulo p {
+    margin: 18px 0 40px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.botao {
+    position: absolute;
+    top: 61%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.butao {
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 1.2s;
+}
+
+.butao:hover {
+    background-color: aliceblue;
+    color: #000;
+}
+
+/*----------------- dobra 2---------------- */
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+
+section.dobra2 {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+section.dobra2 h1 {
+    font-size: 37px;
+    font-weight: 600;
+}
+
+section.dobra2 h3 {
+    color: #000;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+
+}
+
+.pacotes {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pacotes h2 {
+    font-weight: 300;
+}
+
+
+.package p {
+    margin-top: 20px;
+    font-weight: 300;
+    justify-content: center;
+}
+
+.package {
+    flex-basis: 31%;
+    background: rgba(162, 255, 255, 0.409);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.package:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
+}
+
+/*---------------Dobra 3-------------------*/
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+.servicos {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.servicos h1 {
+    font-size: 37px;
+    font-weight: 600;
+}
+
+.servicos p {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.hotel1 {
+    flex-basis: 32%;
+    margin-bottom: 30px;
+    margin-left: 4%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hotel1 img {
+    border-radius: 10px;
+}
+
+.layer1 {
+    border-radius: 10px;
+    background: transparent;
+    height: 99%;
+    width: 25.1%;
+    position: absolute;
+    top: 0;
+    left: 93px;
+    transition: 0.5s;
+
+}
+
+.layer1 h3 {
+    color: #fff;
+    width: 100%;
+    font-weight: 500;
+    font-size: 26px;
+    bottom: 0;
+    left: 1%;
+    transform: translateX(-50);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.layer1:hover h3 {
+    bottom: 49%;
+    opacity: 1;
+}
+
+
+.layer1:hover {
+    background: rgba(37, 130, 142, 0.7);
+}
+
+.layer2 {
+    border-radius: 10px;
+    background: transparent;
+    height: 99%;
+    width: 25%;
+    position: absolute;
+    top: 0;
+    left: 578px;
+    transition: 0.5s;
+}
+
+.layer2 h3 {
+    color: #fff;
+    width: 100%;
+    font-weight: 500;
+    font-size: 26px;
+    bottom: 0;
+    left: 1%;
+    transform: translateX(-50);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.layer2:hover h3 {
+    bottom: 49%;
+    opacity: 1;
+}
+
+.layer2 h3 {
+    color: #fff;
+}
+
+.layer2:hover {
+    background: rgba(37, 130, 142, 0.7);
+}
+
+.layer3 {
+    border-radius: 10px;
+    background: transparent;
+    height: 99%;
+    width: 25.1%;
+    position: absolute;
+    top: 0;
+    left: 1060px;
+    transition: 0.5s;
+
+}
+
+.image3 {
+    margin-right: 10px;
+}
+
+.layer3 h3 {
+    color: #fff;
+    width: 100%;
+    font-weight: 500;
+    font-size: 26px;
+    bottom: 0;
+    left: 1%;
+    transform: translateX(-50);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.layer3:hover h3 {
+    bottom: 49%;
+    opacity: 1;
+}
+
+.layer3 h3 {
+    color: #fff;
+}
+
+.layer3:hover {
+    background: rgba(37, 130, 142, 0.7);
+}
+
+
+/*---------------FORMULARIO----------------*/
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+
+.formulario {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 170px;
+    margin-top: 170px;
+}
+
+.formulario h1 {
+    font-size: 37px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.form input,
+.form textarea {
+    width: 47%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+.btn {
+    font-weight: 400;
+    font-size: small;
+    color: #fff;
+    background-color: #0066CC;
+    padding: 10px 45px;
+    border: 2px solid #0066cc;
+    border-radius: 5px;
+    transition: 1165ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    margin: auto;
+}
+
+.btn:hover {
+
+    transition: 1165ms;
+    padding: 10px 56px;
+    transform: translateY(-0px);
+    background-color: #fff;
+    color: #0066cc;
+    border: solid 2px #0066cc;
+}
+
+
+
+/*---------------RODAPÉ--------------------*/
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+
+.footer {
+    width: 80%;
+    text-align: center;
+    padding: 30px 0;
+    margin-left: 10%;
+    margin-top: 45px;
+    margin-bottom: 30px;
+}
+
+.footer h1 {
+    font-size: 37px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.footer p {
+    margin-bottom: 40px;
+}
+
+
+.icon {
+    color: #097cef;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+    margin-top: 66px;
+
+}
+
+.fa-heart {
+    color: #097cef;
+}
+
+/* --------------------admin---------------------- */
+/* ------------------------------------------ */
+/* ------------------------------------------ */
+/* ------------------------------------------ */
+/* ------------------------------------------ */
+/* ------------------------------------------ */
+/* ------------------------------------------ */
+
+.topoADM h1 {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    margin-top: 19%;
+    margin-left: auto;
+    color: #fff;
+}
+
+.topoADM ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+
+.ativoADM {
+    float: right;
+    list-style-type: none;
+    margin-right: 340px;
+}
+
+.logoADM img {
+    margin-bottom: 110px;
+    margin-top: 12%;
+    margin-left: 45.8%;
+    float: left;
+    width: 8%;
+    height: auto;
+}
+
+.adm {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+.loginBar {
+    margin-top: 10%;
+}
+
+.loginBar input {
+    width: 48%;
+    border-radius: 20px;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+
+/*---------------LISTA de HOPEDES--------------------*/
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
+
+#lista{
+    position: relative;
+    background-color: rgb(179, 179, 179);
+}
+
+#lista h1{
+
+    text-align: center;
+    margin-top: 2%;
+    color: rgb(58, 58, 58);
+    font-weight: 300;
+}
+
+.table{
+    width: 67%;
+    margin-left: 16%;
+    text-align: center;
+    margin-top: 5%;
+    border-collapse: collapse;
+}
+
+.table .thead-dark th {
+    color: #fff;
+    background-color: #212529;
+    border-color: #32383e;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #105192;
+}
+
+.table th,
+.table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #004183;
+}
+
+th {
+    text-align: inherit;
+}
+ 
+td{
+    background-color: #fff;
+}
+.logoLista{
+
+    margin-left: 46%;
+    width: 170px;
+    height: auto;
+}
+.topoLista {
+    float: right;
+    margin: auto;
+    margin-right: 21%;
+    margin-top: -7%;
+    color: #000;
+}
