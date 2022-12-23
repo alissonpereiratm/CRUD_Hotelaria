@@ -27,7 +27,7 @@
              <div class="adm">
 
                  <div class="loginBar">
-                     <form method="POST" action="listaHospede.php">
+                     <form method="POST" action="recebeLogin.php">
 
                          <input type="text" placeholder="Usuário" required name="login">
                          <input type="password" placeholder="Senha" required name="senha">
