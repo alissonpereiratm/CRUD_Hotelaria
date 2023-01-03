@@ -133,9 +133,7 @@
                     <input type="text" placeholder="Nome Completo" required name="nm_pessoa">
                     <input type="text" placeholder="CPF" required name="nr_CPF">
                     <input type="text" placeholder="Telefone" required name="nr_telefone">
-                    <input type="text" placeholder="Número Cartão" required name="nr_cartao">
-                    <input type="date" placeholder="Data de Nascimento" required name="data_nascimento">
-                    <input type="text" placeholder="Endereço" required name="endereco">
+                    <input type="text" placeholder="Email" required name="email">
                     <textarea rows="8" placeholder="Dúvidas" required name="duvidas"></textarea>
                     <button type="submit" class="btn">ENVIAR</button>
 

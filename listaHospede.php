@@ -1,6 +1,6 @@
 <?php
 include 'conexao.php';
-$sql = "SELECT id_hospede, nm_pessoa, nr_CPF, nr_telefone,nr_cartao, data_nascimento, endereco,duvidas
+$sql = "SELECT id_hospede, nm_pessoa, nr_CPF, nr_telefone,email,duvidas
 FROM hospede";
 $resultado = mysqli_query($conexao, $sql);
 ?>
@@ -41,9 +41,7 @@ $resultado = mysqli_query($conexao, $sql);
                 <th scope="col">NOME</th>
                 <th scope="col">CPF</th>
                 <th scope="col">TELEFONE</th>
-                <th scope="col">CARTÃO</th>
-                <th scope="col">DATA DE NASCIMENTO</th>
-                <th scope="col">ENDEREÇO</th>
+                <th scope="col">EMAIL</th>
                 <th scope="col">DUVIDAS</th>
                 <th scope="col">DELETAR</th>
             </tr>
@@ -56,9 +54,7 @@ $resultado = mysqli_query($conexao, $sql);
                 echo "<td>$linha[nm_pessoa]</td>";
                 echo "<td>$linha[nr_CPF]</td>";
                 echo "<td>$linha[nr_telefone]</td>";
-                echo "<td>$linha[nr_cartao]</td>";
-                echo "<td>" . date('d/m/Y', strtotime($linha['data_nascimento'])) . "</td>";
-                echo "<td>$linha[endereco]</td>";
+                echo "<td>$linha[email]</td>";
                 echo "<td>$linha[duvidas]</td>";
                 echo "<td>";
                 echo "<a href='excluir.php?cod=$linha[id_hospede]'><img width='40px' src='imagens/lixo.png'/></a>";
